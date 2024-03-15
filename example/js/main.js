@@ -55,7 +55,7 @@
 			}
 
 			// Update the item / Fill the template
-			item.querySelector('.front').setAttribute('href', 'http://www.flickr.com/photos/' + photo.owner + '/' + photo.id);
+			item.querySelector('.front').setAttribute('href', 'https://www.flickr.com/photos/' + photo.owner + '/' + photo.id);
 			item.querySelector('.photo').setAttribute('src', (photo.url_q || photo.url_t) + '?ts=' + (+new Date()));
 			item.querySelector('.photo').setAttribute('alt', photo.title);
 			item.querySelector('.photo').setAttribute('title', photo.title);
@@ -85,7 +85,7 @@
 			var item = tpl.cloneNode(true);
 
 			// Update the item / Fill the template
-			item.querySelector('.front').setAttribute('href', 'http://www.flickr.com/photos/' + photo.owner + '/' + photo.id);
+			item.querySelector('.front').setAttribute('href', 'https://www.flickr.com/photos/' + photo.owner + '/' + photo.id);
 			item.querySelector('.photo').setAttribute('src', (photo.url_q || photo.url_t) + '?ts=' + (+new Date()));
 			item.querySelector('.photo').setAttribute('alt', photo.title);
 			item.querySelector('.photo').setAttribute('title', photo.title);

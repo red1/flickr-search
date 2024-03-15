@@ -42,7 +42,7 @@ flickr.search({
 });
 ```
 
-For more informations on parameters see the [Flickr API Documentation](http://www.flickr.com/services/api/flickr.photos.search.html).
+For more informations on parameters see the [Flickr API Documentation](https://www.flickr.com/services/api/flickr.photos.search.html).
 
 ### Flickr.interesting
 
@@ -57,7 +57,7 @@ Search Flickr for interesting photos.
 1. parameters - (object) An object with the list of parameters to send to the API.
 2. callback - (function) The function to execute when we got the result. Will get 2 parameters: err (object) and data (object).
 
-For more informations on parameters see the [Flickr API Documentation](http://www.flickr.com/services/api/flickr.interestingness.getList.html).
+For more informations on parameters see the [Flickr API Documentation](https://www.flickr.com/services/api/flickr.interestingness.getList.html).
 
 #### Example:
 
@@ -81,7 +81,7 @@ Make a raw request to the Flickr API
 1. parameters - (object) An object with the list of parameters to send to the API.
 2. callback - (function) The function to execute when we got the result. Will get 2 parameters: err (object) and data (object).
 
-You MUST set the parameters.method property, for a full list of the available methods see the [Flickr API Documentation](http://www.flickr.com/services/api/).
+You MUST set the parameters.method property, for a full list of the available methods see the [Flickr API Documentation](https://www.flickr.com/services/api/).
 
 #### Example:
 
